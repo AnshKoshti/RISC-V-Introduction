@@ -1,0 +1,52 @@
+# RISC-V Assembly Lang Elements:
+
+1. Instructions.
+    - A set of basic operations, such as arithmetic, load/store, and control flow, that are executed by the processor.
+
+2. Registers:
+    - Processor-internal memory locations used to store intermediate results and control information.
+
+3. Labels:
+    - Symbolic names for memory locations that can be used as targets for branch and jump instructions.
+
+4. Directives:
+    - Special commands used to control the behavior of the assembler, such as setting memory regions or defining constants.
+
+5. Macros:
+    - User-defined sequences of instructions that can be invoked with single macro call.
+
+6. Pseudoinstructions:
+    - Synthetic instructions that are translated by the assembler into one or more real instructions, allowing for a higher-level, more concise representation of the code.
+
+
+# RISC-V Assembler Directives:
+
+1. .align:
+    - Aligns the location counter to a specified power of 2 boundary.
+
+2. .section:
+    - Specifies the section of the output file where the following data should be placed.
+
+3. .byte:
+    - Defines an array of 8-bit values.
+
+4. .half:
+    - Defines an array of 16-bit values.
+
+5. .word:
+    - Defines an array of 32-bit values.
+
+6. .data:
+    - Specifies the start of the data section where initialized data is stored.
+
+7. .text:
+    - Specifies the start of the code section where instructions are stored.
+
+8. .globl:
+    - Declares a symbol as global and accessible from other files.
+
+9. .equ:
+    - Assigns a value to a symbol, useful for constants.
+
+10. .string:
+    - Defines a string of ASCII characters with a null terminator.
