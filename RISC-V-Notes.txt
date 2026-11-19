@@ -50,3 +50,10 @@
 
 10. .string:
     - Defines a string of ASCII characters with a null terminator.
+    
+
+# The Order of Operands:
+
+- Destination, source1, source2
+	- xor x1, x5, x10.
+
